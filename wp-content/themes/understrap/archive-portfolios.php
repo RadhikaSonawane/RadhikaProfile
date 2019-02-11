@@ -48,7 +48,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
 					<?php get_template_part( 'loop-templates/content', 'none' ); ?>
 
 				<?php endif; ?>
-				
+
 		</div>
 		<div class="col-sm-12 col-sm-8 col-lg-4 sidebar">
                     <div class="container-fluid blog-sidebar">

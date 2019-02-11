@@ -6,8 +6,9 @@
  */
 
 get_header();
-$container   = get_theme_mod( 'understrap_container_type' );
+
 ?>
-<?php 
+<h1>test</h1>
+<?php
 get_template_part('taxonomy-location', 'taxonomy-location');
 ?>

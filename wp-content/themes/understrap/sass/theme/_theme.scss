@@ -12,16 +12,16 @@ a{
         overflow: hidden;
         background-color: #333;
     }
-    
+
     li {
         float: left;
         border-right:1px solid #bbb;
     }
-    
+
     li:last-child {
         border-right: none;
     }
-    
+
     li a {
         display: block;
         color: white;
@@ -31,11 +31,11 @@ a{
         font-weight: bold;
         font-family: 'Merriweather', serif;
     }
-    
+
     li a:hover:not(.active) {
         background-color: #111;
     }
-    
+
     .active {
         background-color: rgba(255,255,255, 0.6);
     }
@@ -51,7 +51,7 @@ section.usps {
         background-color:#f5f2ed;
 		padding-top: 2rem;
 		padding-bottom: 2rem;
-    
+
 		h1 {
             margin-bottom: 0.5rem;
             font-family: 'Merriweather', serif;
@@ -121,7 +121,7 @@ section.educations {
          p {
             font-size: 25px;
           }
-          
+
 	}
 
 section.fullimage {
@@ -196,7 +196,7 @@ footer{
   }
     font-size: 50px;
     text-align: center;
-    color: #f5f2ed; 
+    color: #f5f2ed;
     width: 2396px;
 }
 
@@ -216,11 +216,11 @@ li{
     ul{
         color:black;
     }
-    
+
     li {
        list-style: none;
        }
-    
+
     li a{
         font-family: 'IntroRust-Base';
         padding: 6px 8px 6px 16px;
@@ -229,11 +229,11 @@ li{
         display: block;
         text-decoration: none;
     }
-    
+
     li a:hover {
         color: black;
     }
-    
+
 }
 
 .image{
@@ -250,7 +250,7 @@ li{
         -webkit-transition: all 200ms ease-in;
         -webkit-transform: scale(1.5);
         -ms-transition: all 200ms ease-in;
-        -ms-transform: scale(1.5);   
+        -ms-transform: scale(1.5);
         -moz-transition: all 200ms ease-in;
         -moz-transform: scale(1);
         transition: all 200ms ease-in;
@@ -314,7 +314,7 @@ img{
         color:white;
         font-family: 'Merriweather', serif;
     }
-    
+
 }
 
 .blog-content{
@@ -333,7 +333,7 @@ img{
     p{
         color: white;
     }
-    
+
 }
 
 .blog-content:hover
@@ -346,3 +346,14 @@ img{
     box-shadow: 0px 0px 150px #000000;
 }
 
+.us{
+  padding-top: 150px;
+  background-color: #f5f2ed;
+}
+.us:hover{
+    box-shadow: 0px 0px 150px #000000;
+}
+
+.location{
+  padding-bottom:100px;
+}
