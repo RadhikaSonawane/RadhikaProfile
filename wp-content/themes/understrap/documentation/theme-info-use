@@ -1,0 +1,16 @@
+Introduction:
+This is resume theme. After installing this theme you can create your resume. Features include the totally new and improved by author, a host of short codes and pre-made layouts, a variety of portfolio layouts, swipe technology, Revolution Slider, and more.
+
+Installation & Update:
+Before you can complete the installation, make certain you have unpacked the entire package. This is very important! You can complete the installation in either of two ways:
+
+WordPress Theme Manager - please go to Appearance > Themes > Add new > Upload, select the zipped theme folder called betheme.zip and press Install Now WordPress will do the rest for you.
+FTP upload-upload non-zipped understap theme folder to the /wp-content/themes/ folder in the WordPress installation folder on your server.
+The Second part of this guide describes how to update understap theme. When first installing Understap theme, make sure that you don’t make any changes in the files. If you have, and you don`t want to lose them, the best way save them is to use a freeware tool for comparing files, Beyond Compare for example (How to use it can be found on their website). After comparing files, you can then upload only those files that haven’t been changed.
+If you haven`t changed any theme files, all you need to do to update your current version is to download the latest package from ThemeForest, unpack the files, and upload the new files on the server while replacing the old files by overwriting them.
+All your data is safe because theme file updates do not change anything in the database. It is still recommended to always make a backup of your files & database.
+
+How to Use theme:
+After installation you can see there two CPT called Portfolio and Contact us. You can create all related portfolio post inside portfolio. and fill all your contact info in contact us.
+If you can see post, there you can get different categories like Education, portfolio, location ..etc you can create post and select related categories and published it.
+You can write your personal letter as well. But for that you can select category fullimage.
