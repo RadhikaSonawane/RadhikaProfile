@@ -18,7 +18,7 @@ $container = get_theme_mod( 'understrap_container_type' );
         			<div class="row">
 
 									<div style="color: #f5f2ed;" class="col-sm-12 col-md-6 col-lg-6 ">
-									<h2><a style="color: #f5f2ed;" href=" http://radhikaprofile.test/contact_us/102-2/">Contact Us</a></h2>
+									<h2><a style="color: #f5f2ed;" href=" http://radhikaprofile.test/contact-us/">Contact Us</a></h2>
 									<li>Radhika S Sonawane</li>
 									<li>XYZ, 123 45, Malmö</li>
 									</div>

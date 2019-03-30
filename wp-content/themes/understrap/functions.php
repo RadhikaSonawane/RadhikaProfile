@@ -86,3 +86,23 @@ function my_custom_sidebar() {
 }
 add_action( 'widgets_init', 'my_custom_sidebar' );
 
+/*image*/
+add_theme_support( 'post-thumbnails' );
+add_image_size( 'post-thumbnail size', 800, 240 );
+add_image_size( 'homepage-thumb size', 220, 180 );
+add_image_size( 'fullpage-thumb size', 590, 9999 );
+
+/**
+ * Load Custom Post Type.
+ */
+require get_template_directory() . '/inc/cpt-export-portfolio.php';
+
+/**
+ * Load Advance Coustom Field.
+ */
+require get_template_directory() . '/inc/acf-export.php';
+
+/**
+ * Load Custom Taxonomies.
+ */
+require get_template_directory() . '/inc/taxonomy-export.php';

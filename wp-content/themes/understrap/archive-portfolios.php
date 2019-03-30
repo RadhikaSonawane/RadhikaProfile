@@ -50,6 +50,25 @@ $container   = get_theme_mod( 'understrap_container_type' );
 				<?php endif; ?>
 
 		</div>
+		<?php
+		get_template_part( 'taxonomy-subject', 'taxonomy-subject');
+						/**
+		 * Create an unordered list of links to active location archives
+		 */
+		$locations_list = wp_list_categories( array(
+		  'taxonomy' => 'subjects',
+		  'orderby' => 'name',
+		  'show_count' => 0,
+		  'pad_counts' => 0,
+		  'hierarchical' => 9,
+		  'echo' => 0,
+		  'title_li' => 'Subjects'
+		) );
+
+		// Make sure there are terms with articles
+		if ( $locations_list )
+		  echo '<ul class="locations-list">' . $locations_list . '</ul>';
+		?>
 		<div class="col-sm-12 col-sm-8 col-lg-4 sidebar">
                     <div class="container-fluid blog-sidebar">
                                 <div class="sitebar">

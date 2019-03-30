@@ -41,7 +41,7 @@ a{
     }
 }
 h2 a{
-    color:rgb(238, 229, 229);
+    color:rgb(107, 102, 102);
     font-family: 'Merriweather', serif;
 }
 h2 a:hover{
@@ -258,45 +258,33 @@ li{
         }
 
 .decor{
-    background-color:rgb(92, 84, 85);
-    color:white;
-    border-top-left-radius: 70px;
-    border-bottom-right-radius:70px;
+    color:black;
     margin-bottom: 30px;
     font-family: 'Merriweather', serif;
 }
 
 .portfolios {
+margin: 60px;
 margin-top:20px;
-background-color:rgb(92, 84, 85);
-    color:white;
-    border-top-left-radius: 70px;
-    border-bottom-right-radius:70px;
-    margin-bottom: 30px;
-    font-family: 'Merriweather', serif;
-
-img{
-    border-top-left-radius: 70px;
-    border-bottom-right-radius:70px;
-}
+color:black;
+margin-bottom: 30px;
+font-family: 'Merriweather', serif;
 }
 
 .comment-body{
-    background-color:#9c9589;
     color:white;
     p{
         font-size: 25px;
         font-family: 'Merriweather', serif;
     }
     a{
-        color:white;
+        color:black;
         font-family: 'Merriweather', serif;
     }
 
 }
 
 .comment-meta{
-    background-color: rgb(92, 84, 85);
     color:white;
     font-family: 'Merriweather', serif;
     a{
@@ -315,30 +303,6 @@ img{
         font-family: 'Merriweather', serif;
     }
 
-}
-
-.blog-content{
-    border-top-left-radius: 60px;
-    border-bottom-right-radius:60px;
-    margin-bottom: 30px;
-    margin-top: 40px;
-    background-color: rgb(92, 84, 85);
-    margin:10px;
-    img{
-        margin-top: 20px;
-    }
-    h2{
-        margin-top: 25px;
-    }
-    p{
-        color: white;
-    }
-
-}
-
-.blog-content:hover
-{
-    box-shadow: 0px 0px 150px #000000;
 }
 
 .portfolios:hover

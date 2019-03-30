@@ -25,7 +25,7 @@
 
                         <div class="col-sm-6 text-center">
 
-                             <?php the_post_thumbnail('education-image');?>
+                             <?php the_post_thumbnail($post->ID, 'post-thumbnail size' );?>
                             <h3 class="all-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
                             
                         </div>
