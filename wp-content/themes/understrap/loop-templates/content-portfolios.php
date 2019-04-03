@@ -25,7 +25,7 @@
 
 		<?php the_content(); ?>
 	
-			<a class="btn btn-danger" href="<?php echo get_field('link'); ?>">Continue Reading</a>
+			<a class="btn btn-danger" href="<?php echo get_field('link'); ?>"> <?php _e( 'See Portfolio Detail', 'understrap' ); ?> </a>
 
 
 

@@ -106,3 +106,11 @@ require get_template_directory() . '/inc/acf-export.php';
  * Load Custom Taxonomies.
  */
 require get_template_directory() . '/inc/taxonomy-export.php';
+
+
+
+// add i18n support
+add_action( 'after_setup_theme', 'my_theme_setup' );
+function my_theme_setup(){
+    load_theme_textdomain( 'understap', get_template_directory() . '/languages' );
+}

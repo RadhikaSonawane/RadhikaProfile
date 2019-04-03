@@ -2,7 +2,7 @@
 
 <div class="container">
 
-    <h1 class="my-4 text-center"><a href="http://radhikaprofile.test/category/educations/">Education</a><h1>
+    <h1 class="my-4 text-center"><a href="http://radhikaprofile.test/category/educations/"><?php _e( 'Education', 'understrap' ); ?></a><h1>
 
 
             <?php

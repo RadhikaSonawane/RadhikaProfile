@@ -21,7 +21,7 @@ get_header(); // header.php
           <?php echo the_field('city_name');?>,
           <?php echo the_field('contry_name');?>
           <li>E-post:example@test.com</li>
-          <li>Mobile: #0123 456 78</li>
+          <li><?php _e( 'Mobile:', 'understrap' ); ?> # 0123 456 78 </li>
     </div>
   </div>
 </div>
